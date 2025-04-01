@@ -24,6 +24,14 @@ body {
     text-align: center;
 }
 
+.status-banner-yellow {
+    background-color: #FFB84D;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .status-text {
     color: white;
     font-size: 18px;
@@ -98,4 +106,12 @@ table tr:hover {
     font-weight: 700;
     color: #333;
     margin: 0;
+}
+
+.disclaimer {
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px
 }
