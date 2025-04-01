@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-banner {
+    background-color: #28a745;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.status-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.system-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.status-info {
+    margin-top: 30px;
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.status-info h3 {
+    margin-top: 0;
+}
+
+.status-info p {
+    font-size: 16px;
+}
+
+/* Header Section with Logo and Title */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap; /* Allows for wrapping on smaller screens */
+
+}
+
+.logo-container {
+    margin-right: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.page-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
